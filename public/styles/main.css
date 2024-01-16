@@ -232,6 +232,7 @@ footer {
   .date {
     top: 90px;
     width: 400px;
+    font-size: 20px;
   }
 
   .todo-app {
