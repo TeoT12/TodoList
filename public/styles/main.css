@@ -183,8 +183,7 @@ footer {
   bottom: 0;
   color: white;
 }
-
-@media (max-width: 500px) {
+@media (min-width: 219px) and (max-width: 500px) {
   .today-btn {
     width: 7em;
   }
@@ -196,6 +195,7 @@ footer {
   .date {
     top: 90px;
     width: 400px;
+    font-size: 23px;
   }
 
   .todo-app {
@@ -232,7 +232,6 @@ footer {
   .date {
     top: 90px;
     width: 400px;
-    font-size: 20px;
   }
 
   .todo-app {
