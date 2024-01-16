@@ -184,44 +184,6 @@ footer {
   color: white;
 }
 
-@media (min-width: 481px) and (max-width: 1200px) {
-  .today-btn {
-    width: 7em;
-  }
-
-  .work-btn {
-    width: 7em;
-  }
-
-  .date {
-    position: absolute;
-    top: 90px;
-    width: 420px;
-  }
-
-  .todo-app {
-    height: 460px;
-    width: 380px;
-    position: absolute;
-    bottom: 50px;
-  }
-
-  label.task {
-    font-size: 18px;
-  }
-
-  .task-box {
-    width: 280px;
-    height: 40px;
-  }
-
-  footer {
-    position: absolute;
-    right: 130px;
-    bottom: 0;
-  }
-}
-
 @media (min-width: 319px) and (max-width: 500px) {
   .today-btn {
     width: 7em;
@@ -239,6 +201,8 @@ footer {
   .todo-app {
     height: 450px;
     width: 350px;
+    position: absolute;
+    top: 150px;
   }
 
   label.task {
@@ -249,4 +213,83 @@ footer {
     width: 280px;
     height: 40px;
   }
+  footer {
+    position: absolute;
+    right: 130px;
+    bottom: 0;
+  }
 }
+
+@media (min-width: 501px) and (max-width: 1200px) {
+  .today-btn {
+    width: 7em;
+  }
+
+  .work-btn {
+    width: 7em;
+  }
+
+  .date {
+    top: 90px;
+    width: 400px;
+  }
+
+  .todo-app {
+    height: 460px;
+    width: 380px;
+    position: absolute;
+    top: 150px;
+  }
+
+  label.task {
+    font-size: 18px;
+  }
+
+  .task-box {
+    width: 280px;
+    height: 40px;
+  }
+  footer {
+    position: absolute;
+    right: 130px;
+    bottom: 0;
+  }
+}
+
+ @media ( min-width: 1600px) {
+  .today-btn {
+    width: 10em;
+  }
+
+  .work-btn {
+    width: 10em;
+  }
+
+  .date {
+    position: absolute;
+    top: 90px;
+    width: 500px;
+  }
+
+  .todo-app {
+    height: 600px;
+    width: 450px;
+    position: absolute;
+    top: 150px;
+  }
+
+  label.task {
+    font-size: 18px;
+  }
+
+  .task-box {
+    width: 360px;
+    height: 45px;
+  }
+
+  footer {
+    position: absolute;
+    right: 130px;
+    bottom: 0;
+  }
+}  
