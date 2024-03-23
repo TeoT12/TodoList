@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(/images/desk.jpg);
+  background-image: url(/images/todo-background.png);
   background-position: center;
   background-size: cover;
   min-height: 100vh;
